@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Combine1 from './components/Combine1';
+import Combine2 from './components/Combine2';
+import FaqSquare from './components/FaqSquare';
+import Footer from './components/Footer';
+import LineDescription from './components/LineDescription';
+import NavBar from './components/NavBar';
+import Section from './components/Section';
+import Slider from './components/Slider';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <NavBar />
+    <Slider />
+    <LineDescription />
+    <Section />
+    <Combine1 />
+    <Combine2 />
+    <FaqSquare />
+    <Footer />
+    </>
   );
 }
 
